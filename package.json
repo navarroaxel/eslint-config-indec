@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-indec",
+  "version": "0.0.1-alpha",
+  "description": "ESLint rules demo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "indec",
+    "react",
+    "angularjs",
+    "node"
+  ],
+  "author": "INDEC",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-lodash": "^2.3.3",
+    "eslint-plugin-react": "^6.9.0"
+  }
+}
