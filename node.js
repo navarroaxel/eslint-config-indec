@@ -1,7 +1,7 @@
 module.exports = {
     env: {
-        "browser": false,
-        "node": true
+        'browser': false,
+        'node': true
     },
-    extends: "indec"
+    extends: 'indec'
 };
