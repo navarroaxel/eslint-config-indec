@@ -23,5 +23,8 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-lodash": "^2.3.3",
     "eslint-plugin-react": "^6.9.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-promise": "^3.4.1"
   }
 }

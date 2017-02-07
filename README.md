@@ -1,17 +1,31 @@
-## eslint-config-indec
+## ESLint-config-indec
 
 To use this ESLint config file follow these instructions:
 
-1. Download the module via npm:
-    `npm install eslint-config-indec`
-2. Create a **.eslintrc.json** file in the root folder of your project then add the following code:
-    `{
-      "root": true,
-      "extends": "indec"
-    }`
-    
-There are two additional configurations available. To use the Node.js configuration file replace the `"extends"` value with the following:
-    `"extends": "indec/node"`
-    
-To use the ReactJS configuration file replace the `"extends"` value with the following:
-    `"extends": "indec/react"`
+# Installation
+
+Install [ESLint](https://www.github.com/eslint/eslint) either locally or globally.
+
+    $ npm install eslint --save-dev
+
+If you installed `ESLint` globally, you have to install the Indec configuration globally too. Otherwise, install it locally.
+
+    $ npm install eslint-plugin-lodash --save-dev
+
+# Configuration
+
+Create a **.eslintrc.json** file in the root folder of your project then add the following code:
+```json
+{
+  "extends": "indec"
+}
+```
+
+# Configuration for React
+
+If you work with React you can use the ``react`` configuration:
+```json
+{
+  "extends": "indec/react"
+}
+```
